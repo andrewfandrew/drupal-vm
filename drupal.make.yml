@@ -20,5 +20,48 @@ projects:
     #   branch: "8.4.x"
     #   working-copy: true
 
+projects:
+  drupal:
+    version: '7.66'
+  ctools:
+    subdir: contrib
+    version: '1.15'
+  ckeditor:
+    subdir: contrib
+    version: '1.18'
+  coffee:
+    subdir: contrib
+    version: '2.3'
+  email_registration:
+    subdir: contrib
+    version: '1.4'
+  entity:
+    subdir: contrib
+    version: '1.9'
+  entityreference:
+    subdir: contrib
+    version: '1.5'
+  features:
+    subdir: contrib
+    version: '2.11'
+  panels:
+    subdir: contrib
+    version: '3.9'
+  logintoboggan:
+    subdir: contrib
+    version: '1.5'
+  module_filter:
+    subdir: contrib
+    version: '2.2'
+  strongarm:
+    subdir: contrib
+    version: '2.0'
+  views:
+    subdir: contrib
+    version: '3.22'
+  bootstrap:
+    version: '3.23'
+
+
   # Other modules.
-# devel: "1.x-dev"
+ devel: "1.x-dev"
